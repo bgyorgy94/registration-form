@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="form.css">
+    <title>Registration form</title>
+</head>
+
+<body>
+    <form>
+        <h1>Registration</h1>
+        <p>Please, fill the form below for registration!</p>
+
+        <div id="name-container">
+            <label for="name">Full Name</label>
+            <input type="text" placeholder="" name="name" id="name">
+        </div>
+
+        <div id="email-container">
+            <label for="email">Email</label>
+            <input type="text" placeholder="" name="email" id="email">
+        </div>
+
+        <div id="email-confirm-container">
+            <label for="emailConfirm">Email again</label>
+            <input type="text" placeholder="" name="emailConfirm" id="emailConfirm">
+        </div>
+
+        <div id="learnt-container">
+            <label for="learnt">Where have you heard about us?</label>
+            <select name="learnt" id="learnt">
+                <option value="online">Internet</option>
+                <option value="tv">Television</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+
+        <div id="checkbox-container">
+            <input type="checkbox" id="statement" name="statement" value="agreed">
+            <label for="statement">
+                I agree to the Privacy Notice and Conditions of Use
+            </label>
+        </div>
+
+        <button type="submit" class="registerbtn">Registration</button>
+    </form>
+    <script src="form.js"></script>
+</body>
+
+</html>

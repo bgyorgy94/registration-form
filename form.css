@@ -1,0 +1,83 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form {
+  padding: 16px;
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+}
+
+form>div {
+  position: relative;
+  width: 90%;
+  margin: auto;
+}
+
+input {
+  width: 100%;
+  display: block;
+  padding: 15px 0px 15px 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  border-radius: 10px;
+  background-color: #f1f1f1;
+}
+
+#checkbox-container {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 8px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#checkbox-container>input {
+  width: fit-content;
+  margin-bottom: 0;
+}
+
+#learnt-container {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+input[type=text]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.registerbtn {
+  background-color: #4136d8;
+  color: white;
+  font-size: 1.1em;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 80%;
+  margin: auto;
+  opacity: 0.9;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+.warning-msg {
+  font-size: 0.8em;
+  color: red;
+  position: absolute;
+  bottom: -32px;
+}
+
+.red-outline {
+  outline: 2px solid red !important;
+}
+
+.confirmation {
+  text-align: center;
+}
