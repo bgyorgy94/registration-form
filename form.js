@@ -17,10 +17,6 @@ registerBtn.addEventListener("click", (event) => {
 });
 
 function sendForm() {
-    /*
-    Ideális esetben átirányítanám a főoldalra vagy egy bejelentkező oldalra és egy toastban jelenne meg a 
-    sikeres küldés. Viszont itt csak ez az egy oldal van, ezért ezt az egyszerű megoldást választottam.
-    */
     body.innerHTML = `<div class="confirmation">
                         <h1>Registration successful!</h1>
                       </div>`
